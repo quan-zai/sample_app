@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a309d91-9555-43ef-ab32-3161fd0cad6e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -37,18 +36,8 @@
       <file leaf-file-name="sessions_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="162">
+              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -66,11 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="365">
+              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20170816100146_add_remember_digest_to_users.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20170816100146_add_remember_digest_to_users.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,8 +78,38 @@
       <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="252">
               <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -89,8 +118,8 @@
       <file leaf-file-name="sessions_helper.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="69">
+              <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -121,6 +150,7 @@
       <find>should get</find>
       <find>bcrypt</find>
       <find>has-error</find>
+      <find>dropdown-menu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,7 +172,6 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
         <option value="$PROJECT_DIR$/test/integration/site_layout_test.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.ts" />
         <option value="$PROJECT_DIR$/app/helpers/users_helper.rb" />
@@ -156,9 +185,10 @@
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -567,7 +597,7 @@
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.3.1/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v6.3.1/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/views/layouts/_header.html.erb&#10;sess&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/controllers/sessions_controller.rb&#10;sessio&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/helpers/sessions_helper.rb&#10;userscont&#9;null&#9;null&#10;userscon&#9;null&#9;null&#10;application.js&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/assets/javascripts/application.js&#10;head&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/views/layouts/_header.html.erb&#10;ses&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/helpers/sessions_helper.rb&#10;sessionshe&#9;null&#9;null&#10;application&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/controllers/application_controller.rb&#10;routes.r&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/config/routes.rb&#10;session&#9;null&#9;null&#10;new&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/views/users/new.html.erb&#10;router&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/config/routes.rb&#10;applica&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/views/layouts/application.html.erb&#10;ne&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/views/users/new.html.erb&#10;custo&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/assets/stylesheets/custom.scss&#10;n&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/views/users/new.html.erb&#10;user&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/controllers/users_controller.rb&#10;cus&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/assets/stylesheets/custom.scss&#10;rout&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/config/routes.rb&#10;show&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/views/users/show.html.erb&#10;usercont&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/controllers/users_controller.rb&#10;userco&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/controllers/users_controller.rb&#10;views&#9;null&#9;null&#10;use&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/models/user.rb&#10;us&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/test/models/user_test.rb&#10;userte&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/test/models/user_test.rb" />
+    <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/models/user.rb&#10;use&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/helpers/users_helper.rb&#10;se&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/helpers/sessions_helper.rb&#10;sess&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/controllers/sessions_controller.rb&#10;session&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/helpers/sessions_helper.rb&#10;usersc&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/controllers/users_controller.rb&#10;sessions&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/controllers/sessions_controller.rb&#10;sessionsc&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/controllers/sessions_controller.rb&#10;User&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/models/user.rb&#10;sessio&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/helpers/sessions_helper.rb&#10;userscont&#9;null&#9;null&#10;userscon&#9;null&#9;null&#10;application.js&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/assets/javascripts/application.js&#10;head&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/views/layouts/_header.html.erb&#10;ses&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/helpers/sessions_helper.rb&#10;sessionshe&#9;null&#9;null&#10;application&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/controllers/application_controller.rb&#10;routes.r&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/config/routes.rb&#10;new&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/views/users/new.html.erb&#10;router&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/config/routes.rb&#10;applica&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/views/layouts/application.html.erb&#10;ne&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/views/users/new.html.erb&#10;custo&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/assets/stylesheets/custom.scss&#10;n&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/views/users/new.html.erb&#10;cus&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/assets/stylesheets/custom.scss&#10;rout&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/config/routes.rb&#10;show&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/views/users/show.html.erb&#10;usercont&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/controllers/users_controller.rb&#10;userco&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/app/controllers/users_controller.rb&#10;views&#9;null&#9;null&#10;us&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/test/models/user_test.rb&#10;userte&#9;FILE&#9;file:///Users/xuzhengquan/Desktop/rails/sample_app/test/models/user_test.rb" />
   </component>
   <component name="RunManager" selected="Rails.Development: sample_app">
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
@@ -751,12 +781,12 @@
       <updated>1502353322035</updated>
       <workItem from="1502353323605" duration="2802000" />
       <workItem from="1502362811200" duration="4738000" />
-      <workItem from="1502444292384" duration="35835000" />
+      <workItem from="1502444292384" duration="40064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43375000" />
+    <option name="totallyTimeSpent" value="47604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="733" extended-state="6" />
@@ -794,22 +824,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/mailer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/help.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -929,14 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1033,14 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1093,14 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1173,34 +1163,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="365">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170816100146_add_remember_digest_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.0/gems/sprockets-3.7.1/lib/sprockets/digest_utils.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="86" column="57" lean-forward="false" selection-start-line="86" selection-start-column="57" selection-end-line="86" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="162">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="69">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="39" column="7" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
           <folding />
         </state>
       </provider>
