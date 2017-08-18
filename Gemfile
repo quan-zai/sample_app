@@ -37,6 +37,8 @@ gem 'faker',                   '1.7.3'
 gem 'will_paginate',           '3.1.5'
 
 gem 'bootstrap-will_paginate', '1.0.0'
+
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
@@ -51,6 +53,9 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+
+  #rails console hash 格式化输出
+  gem 'pry-rails'
 end
 
 group :development do
